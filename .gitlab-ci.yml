@@ -5,5 +5,5 @@ mirror-bridge-check:
   image: alpine:3.20
   tags: [shared, docker]
   script:
-    - 'echo NARSOFAL_HAMGIT_MIRROR_CI_OK'
+    - 'echo NARSOFAL_HAMGIT_AUTO_MIRROR_TEST_2'
     - 'test -f README.md'
