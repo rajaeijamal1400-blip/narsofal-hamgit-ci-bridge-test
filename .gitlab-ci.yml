@@ -1,0 +1,9 @@
+stages: [verify]
+
+mirror-bridge-check:
+  stage: verify
+  image: alpine:3.20
+  tags: [shared, docker]
+  script:
+    - 'echo NARSOFAL_HAMGIT_MIRROR_CI_OK'
+    - 'test -f README.md'
